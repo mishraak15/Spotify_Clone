@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/spotify.png">
+    <script src="https://kit.fontawesome.com/bab29e4943.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./assets/Spotify_icon.svg" alt="#logo"> <span><a href="#">Spotify</a></span></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Library</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h2>Best of Akash Mishra</h2>
+            <div class="songItems_container">
+                <div class="songItems">
+                    <img  alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                      <img src="./assets/play-button.png" class="songItemPlay" id="1" alt="">
+                </span>
+                </div>
+
+                <div class="songItems">
+                    <img  alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                       <img src="./assets/play-button.png" class="songItemPlay" id="2" alt="">
+                </span>
+                </div>
+
+                <div class="songItems">
+                    <img alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                       <img src="./assets/play-button.png" class="songItemPlay" id="3" alt=""> 
+                </span>
+                </div>
+
+                <div class="songItems">
+                    <img  alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                       <img src="./assets/play-button.png" class="songItemPlay" id="4" alt=""> 
+                </span>
+                </div>
+
+                <div class="songItems">
+                    <img  alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                       <img src="./assets/play-button.png" class="songItemPlay" id="5" alt=""> 
+                </span>
+                </div>
+
+                <div class="songItems">
+                    <img alt="1">
+                    <span class="song_name">Fall in Love (Drake & Yo Yo Honey Singh)</span>
+                    <span class="songlistplay">
+                        <span class="time">5:39</span>
+                      <img src="./assets/play-button.png" class="songItemPlay" id="6" alt=""> 
+                </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="stamp">
+        <span id="running_time">0:00</span>
+        <input type="range" name="range" id="progressBar" min="0" max="100" value="0"><span id="total_time">9:99</span>
+        </div>
+        <div class="icons">
+            <!-- font awesome icons -->
+            <img class="btn_image" src="./assets/previous.png" alt="" id="previous">
+            <img class="btn_image" src="./assets/play-button.png" alt="" id="master_play">
+            <img class="btn_image" src="./assets/next.png" alt="" id="next">
+        </div>
+        <div class="songInfo">
+            <img src="./assets/Music_dribble.gif" alt="music" id="song_img">
+            <span id="master_song_name">295-Sidhu Moosewala & Akash Mishra</span>
+        </div>
+        <audio src="./assets/Asur Web Series - Background Music.mp3" id="audioElement"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
